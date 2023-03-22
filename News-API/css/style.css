@@ -1,0 +1,57 @@
+/* *{
+    box-sizing: border-box;
+    margin: 9px;
+    padding: 0;
+  }
+.container{
+    width: 9000%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: solid 5px blue;
+    position: relative;
+    padding: 6em 0 1em 0;
+}
+.img{
+    width: 35%;
+}
+.header{
+    display: flex;
+    vertical-align: baseline;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 30px;
+    float: right;
+}
+li a {
+    display: inline-block;
+    padding: 9px 16px;
+}
+link{
+    display: none;
+}
+.banner{
+    margin-top: -0.125em;
+}
+.myself{
+    margin-top: 2.00em;
+    letter-spacing: 0.055em;
+    font-size: 1.5em;
+    font-weight: 10;
+    display: flex;
+    justify-content: space-around;
+}
+.my img{
+    width: 300px;
+    margin: 0 0 2em 4em;
+    display: block;
+    border-radius: 0.375em;
+    flex-grow: 0;
+    flex-shrink: 0;
+    float: right;
+    margin-left: 500px;
+} */
