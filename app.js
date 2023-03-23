@@ -30,14 +30,11 @@ function click(e){
             let p = document.createElement('p')
             let li = document.createElement('li');
             let a = document.createElement('a');
-            let div = document.createElement('div')
-            // let img = document.createElement('img');
             img.src = (articles.urlToImage);
             a.setAttribute('href', articles.url);
             a.setAttribute('target', '_blank');
             a.textContent = articles.title;
             p.textContent =  (articles.description);
-            // img.src = (articles.urlToImage);
             li.appendChild(img);
             // li.appendChild(p);
             li.appendChild(a);
