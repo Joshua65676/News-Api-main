@@ -1,7 +1,7 @@
 const API_KEY = 'ef95f42364466f9c1b482b9c9fad40eb'
 let headlines = `https://gnews.io/api/v4/top-headlines?category=general&lang=en&max=10&apikey=${API_KEY}`
 
-newsType.innerHTML="<h4>Headlines</4>"
+newsType.innerHTML="<h4>Headlines News</4>"
 
 fetch(headlines).then((res)=>{  
     return res.json()
